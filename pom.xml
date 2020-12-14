@@ -16,6 +16,26 @@
                 <configuration>
                     <source>8</source> <!--compiled from java8-->
                     <target>8</target> <!--compiled to java8-->
+                    <archive>
+                        <manifest>
+                            <mainClass>
+                                com.github.curriculeon.CurriculeonRocks
+                            </mainClass>
+                        </manifest>
+                    </archive>
+                </configuration>
+            </plugin>
+            <plugin>
+                <!-- 2-plugin to create System Property variables -->
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.0.0-M4</version>
+                <configuration>
+                    <systemPropertyVariables>
+                        <browser>chrome</browser>
+                        <url></url>
+                        <buildDirectory>${project.build.directory}</buildDirectory>
+                    </systemPropertyVariables>
                 </configuration>
             </plugin>
         </plugins>
