@@ -53,7 +53,9 @@ public class StringUtilities {
      * @return the last 3 characters of `input`
      */
     public static String getSuffix(String input) {
-        return input.substring(2, 5);
+        int lastIndex = input.length();
+        int startIndex = lastIndex - 3;
+        return input.substring(startIndex, lastIndex);
     }
 
     /**
