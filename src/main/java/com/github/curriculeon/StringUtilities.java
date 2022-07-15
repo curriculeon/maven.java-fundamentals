@@ -1,5 +1,15 @@
 package com.github.curriculeon;
 
+import com.sun.deploy.util.ArrayUtil;
+import com.sun.org.apache.bcel.internal.generic.ArrayInstruction;
+import com.sun.xml.internal.bind.v2.runtime.unmarshaller.XsiNilLoader;
+import jdk.nashorn.internal.runtime.arrays.ArrayData;
+import jdk.nashorn.internal.runtime.arrays.ArrayIndex;
+import sun.plugin.javascript.navig.Array;
+
+import javax.management.openmbean.ArrayType;
+import java.util.ArrayList;
+
 /**
  * Created by Leon Hunter on 6/14/17.
  */
@@ -63,12 +73,14 @@ public class StringUtilities {
         int totalNumberOfCharacters = inputValue.length();
         int middle = totalNumberOfCharacters / 2;
         int remainder = totalNumberOfCharacters % 2;
+
         boolean isEven = remainder == 0;
 //        if (totalNumberOfCharacters = an even number )
         if (isEven) {
-            middle = (totalNumberOfCharacters / 2) - 1;
-
+            middle = (middle) - 1;
         }
+
+        return inputValue.charAt(middle);
     }
 
     /**
@@ -76,7 +88,9 @@ public class StringUtilities {
      * @return the first sequence of characters
      */
     public static String getFirstWord(String spaceDelimitedString) {
-        return null;
+        String[] splitWord = spaceDelimitedString.split(" ");
+        return splitWord[0];
+
     }
 
     /**
@@ -84,7 +98,8 @@ public class StringUtilities {
      * @return the second word of a string delimited by spaces.
      */
     public static String getSecondWord(String spaceDelimitedString) {
-        return null;
+        String[] splitWord = spaceDelimitedString.split(" ");
+        return splitWord[1];
     }
 
     /**
@@ -92,6 +107,10 @@ public class StringUtilities {
      * @return an identical string with characters in reverse order.
      */
     public static String reverse(String stringToReverse) {
-        return null;
+        // [z, i, p, c, o, d,
+         char[] stringCharacters = stringToReverse.toCharArray();
+        String reverse = new StringBuilder(new String(stringCharacters)).reverse().toString();
+
+        return reverse;
     }
 }
