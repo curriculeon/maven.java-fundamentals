@@ -192,7 +192,7 @@ public class TestStringUtilities {
     public void getTheMiddleCharOfLeo(){
         // : Given
         final StringUtilities stringUtilities = new StringUtilities();
-        String input = "noel";
+        String input = "leo";
         Character expected = 'e';
 
         // : When
