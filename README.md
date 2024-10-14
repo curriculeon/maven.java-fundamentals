@@ -26,13 +26,13 @@
     * `git add` your changes to the list of your `commited` files.
     * `git commit` your added files to the list of your `staged` files.
     * `git push` your staged files to your remote repository.
-    * submit a `pull request` which compares Perscholas `master` to your `master`.
-2. Begin by first ensuring the `main` method in your `PerscholasRocks` class prints `"Perscholas Rocks!"` upon execution.  
+    * submit a `pull request` which compares Curriculeon `master` to your `master`.
+2. Begin by first ensuring the `main` method in your `CurriculeonRocks` class prints `"Curriculeon Rocks!"` upon execution.  
 3. Complete each of the method stubs in each of the `main` classes provided.
-    * `main` classes are located in `src.main.java.com.github.perscholas.java_fundamentals`
+    * `main` classes are located in `src.main.java.com.github.Curriculeon.java_fundamentals`
     * There are comments above each method stub to describe the expected behavior.
 4. Upon completion, open and run the `TestSuite` class to ensure that all tests have 100% success.
-    * `TestSuite` is located in `src.main.java.com.github.perscholas.java_fundamentals`
+    * `TestSuite` is located in `src.main.java.com.github.Curriculeon.java_fundamentals`
 
 [<img src="./VIEWME-ide.gif">](./VIEWME-ide.gif)
 
@@ -50,7 +50,7 @@
 
 
 ## Math Utilities
-* Ensure each of the test cases passes successfully in the class [TestMathUtilities](../src/main/java/com/github/perscholas/java_fundamentals/TestMathUtilities.java) by completing each of the method stubs in the class [MathUtilities](src/main/java/com/github/curriculeon/MathUtilities.java).
+* Ensure each of the test cases passes successfully in the class [TestMathUtilities](../src/main/java/com/github/Curriculeon/java_fundamentals/TestMathUtilities.java) by completing each of the method stubs in the class [MathUtilities](src/main/java/com/github/curriculeon/MathUtilities.java).
 * Method Stubs to be completed	
 	* `Integer add(int, int)`
 	* `Long add(long, long)`
@@ -81,7 +81,7 @@
 
 
 ## String Utilities
-* Ensure each of the test cases passes successfully in the class [TestStringUtilities](../src/main/java/com/github/perscholas/java_fundamentals/TestStringUtilities.java) by completing each of the method stubs in the class [StringUtilities](src/main/java/com/github/curriculeon/StringUtilities.java).
+* Ensure each of the test cases passes successfully in the class [TestStringUtilities](../src/main/java/com/github/Curriculeon/java_fundamentals/TestStringUtilities.java) by completing each of the method stubs in the class [StringUtilities](src/main/java/com/github/curriculeon/StringUtilities.java).
 * Method Stubs to be completed
 	* `String concatenation(String, String)`
 	* `String concatenation(int, String)`
