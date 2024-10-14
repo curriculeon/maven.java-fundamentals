@@ -29,10 +29,10 @@
     * submit a `pull request` which compares Curriculeon `master` to your `master`.
 2. Begin by first ensuring the `main` method in your `CurriculeonRocks` class prints `"Curriculeon Rocks!"` upon execution.  
 3. Complete each of the method stubs in each of the `main` classes provided.
-    * `main` classes are located in `src.main.java.com.github.Curriculeon.java_fundamentals`
+    * `main` classes are located in `src.main.java.com.github.curriculeon.java_fundamentals`
     * There are comments above each method stub to describe the expected behavior.
 4. Upon completion, open and run the `TestSuite` class to ensure that all tests have 100% success.
-    * `TestSuite` is located in `src.main.java.com.github.Curriculeon.java_fundamentals`
+    * `TestSuite` is located in `src.main.java.com.github.curriculeon.java_fundamentals`
 
 [<img src="./VIEWME-ide.gif">](./VIEWME-ide.gif)
 
